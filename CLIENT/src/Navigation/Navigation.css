@@ -1,0 +1,44 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ff5722; /* Theme color */
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title (Delishaas) */
+  .nav-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: aliceblue;
+  }
+  
+  /* Links Container */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Navbar Links */
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ffd700; /* Gold hover effect */
+  }
+  
+  /* Logout Button Styling */
+  .nav-links a:last-child {
+    cursor: pointer;
+  }
+  
